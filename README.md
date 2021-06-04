@@ -25,4 +25,4 @@ Operating system requirements:
 - [James Cherti](https://github.com/jamescherti/)
 
 ## Links
-- GitHub repository: https://github.com/jamescherti/python-dpc3848v
+- GitHub repository: https://github.com/jamescherti/python-dpc3848v-wifi-modem/

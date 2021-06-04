@@ -39,7 +39,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 MANAGE_24GHZ = True  # Manage 2.4 Ghz WiFi
-MANAGE_5G = False  # Manage 5G WiFi
+MANAGE_5G = True  # Manage 5G WiFi
 
 
 class ManageDPC3848V:

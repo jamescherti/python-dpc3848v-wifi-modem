@@ -25,7 +25,6 @@
 #
 """Turn On / Off the WiFi of the WiFi Modem DPC3848V."""
 
-
 import os
 import sys
 import warnings

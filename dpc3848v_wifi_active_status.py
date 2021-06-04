@@ -151,13 +151,13 @@ def main():
     options = webdriver.FirefoxOptions()
     options.headless = True
 
-    proxy_ip_port = "127.0.0.1:3128"
-    capabilities['proxy'] = {
-        "proxyType": "MANUAL",
-        "httpProxy": proxy_ip_port,
-        "ftpProxy": proxy_ip_port,
-        "sslProxy": proxy_ip_port
-    }
+    # proxy_ip_port = "127.0.0.1:3128"
+    # capabilities['proxy'] = {
+    #     "proxyType": "MANUAL",
+    #     "httpProxy": proxy_ip_port,
+    #     "ftpProxy": proxy_ip_port,
+    #     "sslProxy": proxy_ip_port
+    # }
 
     with webdriver.Firefox(options=options,
                            capabilities=capabilities,

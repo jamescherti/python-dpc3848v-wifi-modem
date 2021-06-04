@@ -9,16 +9,17 @@ The Python scripts have been tested with:
 
 **This project is in work-in-progress.**
 
-The following scripts are ready to be used:
+The following scripts are ready to be used or adapted to your needs:
 - **dpc3848v\_wifi\_active\_status.py:** enable / disable the Wi-Fi.
 
 ## Requirements
 
-Python 3 pip requirements:
+Python pip requirements:
 - selenium
 
 Operating system requirements:
-- geckodriver (URL: https://github.com/mozilla/geckodriver )
+- geckodriver: https://github.com/mozilla/geckodriver/
+- Python 3
 
 ## Author
 - [James Cherti](https://github.com/jamescherti/)

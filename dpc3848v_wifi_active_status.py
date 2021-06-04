@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #
 # Copyright (c) 2021, James Cherti
-# GitHub: https://github.com/jamescherti/
+# GitHub: https://github.com/jamescherti/python-dpc3848v
 #
 # Distributed under terms of the MIT license.
 #
@@ -23,18 +23,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 #
-"""Turn On / Off the WiFi of the Cisco DPC3848V Advanced WiFi Modem
-
-The script has been tested with the modem:
-    - 'Technicolor DPC3848V DOCSIS 3.0 Gateway'
-
-Python 3 pip requirements:
-    - selenium
-
-Operating system requirements (apt, yum, pacman...):
-    - geckodriver
-
-"""
+"""Turn On / Off the WiFi of the WiFi Modem DPC3848V."""
 
 
 import os

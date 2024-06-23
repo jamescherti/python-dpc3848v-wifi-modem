@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# Copyright (c) 2021, James Cherti
+# Copyright (C) 2021-2024 James Cherti
 # URL: https://github.com/jamescherti/python-dpc3848v-wifi-modem/
 #
 # Distributed under terms of the MIT license.
@@ -28,15 +28,16 @@
 import os
 import sys
 import warnings
-warnings.filterwarnings("ignore")
-# pylint: disable=wrong-import-position
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webdriver import WebDriver
-from selenium.webdriver.support.expected_conditions \
-    import presence_of_element_located
+from selenium.webdriver.support.expected_conditions import \
+    presence_of_element_located
 from selenium.webdriver.support.ui import WebDriverWait
 
+warnings.filterwarnings("ignore")
+# pylint: disable=wrong-import-position
 
 MANAGE_24GHZ = True  # Manage 2.4 Ghz WiFi
 MANAGE_5G = True  # Manage 5G WiFi
@@ -50,7 +51,7 @@ class ManageDPC3848V:
                  url: str,
                  username: str,
                  password: str,
-                 wait_time : int = 30):
+                 wait_time: int = 30):
         """Login to the router web interface."""
         self.wait = WebDriverWait(driver, wait_time)
         self.driver = driver
@@ -74,8 +75,8 @@ class ManageDPC3848V:
 
     def set_wifi_status(self,
                         wifi_enabled: bool,
-                        manage_24ghz : bool = True,
-                        manage_5g : bool = True):
+                        manage_24ghz: bool = True,
+                        manage_5g: bool = True):
         """Enable or disable wifi."""
         self.driver.get(self.url)
 

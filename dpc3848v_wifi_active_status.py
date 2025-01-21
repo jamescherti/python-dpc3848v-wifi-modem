@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# Copyright (c) 2021-2024 James Cherti
+# Copyright (c) 2021-2025 James Cherti
 # URL: https://github.com/jamescherti/python-dpc3848v-wifi-modem/
 #
 # Distributed under terms of the MIT license.
